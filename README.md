@@ -1,8 +1,8 @@
 # Urna Eletrônica
 
-![Badge](https://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=blue&style=for-the-badge)
+![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge) 
 
-<img src="https://github.com/luizfelipe9627/urna-eletronica/blob/master/assets/images/urna-eletronica.png" alt="Site">
+<img src="https://github.com/luizfelipe9627/urna-eletronica/blob/master/assets/videos/urna-eletronica.gif" alt="Site">
 
 ## 📄 Descrição
 Um simulador de urna, totalmente funcional, feito em JavaScript.

@@ -51,18 +51,21 @@ body {
     margin: 10px;
     cursor: pointer;
     box-shadow: 3px 3px 0px #555;
+    font-weight: bold;
 }
 
 .botao--branco {
     background-color: #FFF;
     color: #000;
     font-size: 15px;
+    width: 80px;
 }
 
 .botao--corrige {
     background-color: #F09046;
     color: #000;
     font-size: 15px;
+    width: 80px;
 }
 
 .botao--confirma {
