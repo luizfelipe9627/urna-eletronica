@@ -87,7 +87,7 @@ function branco() {
     aviso.style.display = 'block';
     numeros.innerHTML = '';
     infos.innerHTML = '<div class="aviso-grande pisca">VOTO EM BRANCO!</div>';
-    img.innerHTML = 'none';
+    img.innerHTML = '';
 }
 
 function corrige() {
@@ -118,7 +118,7 @@ function confirma() {
         if(etapas[etapaAtual] !== undefined) {
             comecarEtapa();
         } else {
-            document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM</div>';
+            document.querySelector('.tela').innerHTML = '<div class="aviso-gigante pisca">FIM</div>';
             console.log(votos);
         }
     }
