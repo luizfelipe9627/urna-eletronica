@@ -52,16 +52,16 @@ function atualizaInterface() {
         let fotosHtml = '';
         for(let i in candidato.fotos) {
             if(candidato.fotos[i].small) {
-                fotosHtml += `<div class="d-1-image small"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="divisao1 small"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
             } else {
-                fotosHtml += `<div class="d-1-image"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="divisao1"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
             }
         }
         img.innerHTML = fotosHtml;
     } else {
         voto.style.display = 'block';
         aviso.style.display = 'block';
-        infos.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
+        infos.innerHTML = '<div class="aviso-grande pisca">VOTO NULO</div>';
     }
 }
 
