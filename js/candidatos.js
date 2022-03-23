@@ -8,7 +8,7 @@ let etapas = [
                 nome: 'Fulano de Tal',
                 partido: 'ABC',
                 fotos:[
-                    {url:'https://luizfelipe9627.github.io/urna-eletronica/assets/images/38111.jpg', legenda: 'Vereador'}
+                    {url:'38111.jpg', legenda: 'Vereador'}
                 ]
             },
             {
@@ -16,11 +16,12 @@ let etapas = [
                 nome: 'Beltrano da Silva',
                 partido: 'DEFG',
                 fotos:[
-                    {url:'https://luizfelipe9627.github.io/urna-eletronica/assets/images/77222.jpg', legenda: 'Vereador'}
+                    {url:'77222.jpg', legenda: 'Vereador'}
                 ]
             },
         ]
     },
+    
     {
         titulo: 'PREFEITO',
         numeros: 2,
@@ -31,8 +32,8 @@ let etapas = [
                 partido: 'ABC',
                 vice: 'Cic',
                 fotos:[
-                    {url:'https://luizfelipe9627.github.io/urna-eletronica/assets/images/99.jpg', legenda: 'Prefeito'},
-                    {url:'https://luizfelipe9627.github.io/urna-eletronica/assets/images/99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'99.jpg', legenda: 'Prefeito'},
+                    {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
@@ -41,8 +42,8 @@ let etapas = [
                 partido: 'QWERTY',
                 vice: 'Zul',
                 fotos:[
-                    {url:'https://luizfelipe9627.github.io/urna-eletronica/assets/images/84.jpg', legenda: 'Prefeito'},
-                    {url:'https://luizfelipe9627.github.io/urna-eletronica/assets/images/84_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'84.jpg', legenda: 'Prefeito'},
+                    {url:'84_2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
         ]

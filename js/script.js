@@ -5,7 +5,6 @@ let aviso = document.querySelector('.divisao2');
 let img = document.querySelector('.divisao1-right');
 let numeros = document.querySelector('.area-numeros');
 
-
 let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
@@ -52,9 +51,9 @@ function atualizaInterface() {
         let fotosHtml = '';
         for(let i in candidato.fotos) {
             if(candidato.fotos[i].small) {
-                fotosHtml += `<div class="divisao1 small"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="divisao1-image small"><img src="assets/images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
             } else {
-                fotosHtml += `<div class="divisao1"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="divisao1-image"><img src="assets/images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
             }
         }
         img.innerHTML = fotosHtml;
