@@ -1,9 +1,10 @@
-let seuVotoPara = document.querySelector('.d-1-1 span');
-let cargo = document.querySelector('.d-1-2 span');
-let descricao = document.querySelector('.d-1-4');
-let aviso = document.querySelector('.d-2');
-let lateral = document.querySelector('.d-1-right');
-let numeros = document.querySelector('.d-1-3');
+let voto = document.querySelector('.area-voto span');
+let cargo = document.querySelector('.area-cargo span');
+let infos = document.querySelector('.area-infos');
+let aviso = document.querySelector('.divisao2');
+let img = document.querySelector('.divisao1-right');
+let numeros = document.querySelector('.area-numeros');
+
 
 let etapaAtual = 0;
 let numero = '';
@@ -25,11 +26,11 @@ function comecarEtapa() {
         }
     }
 
-    seuVotoPara.style.display = 'none';
+    voto.style.display = 'none';
     cargo.innerHTML = etapa.titulo;
-    descricao.innerHTML = '';
+    infos.innerHTML = '';
     aviso.style.display = 'none';
-    lateral.innerHTML = '';
+    img.innerHTML = '';
     numeros.innerHTML = numeroHtml;
 }
 
@@ -45,9 +46,9 @@ function atualizaInterface() {
     
     if(candidato.length > 0) {
         candidato = candidato[0];
-        seuVotoPara.style.display = 'block';
+        voto.style.display = 'block';
         aviso.style.display = 'block';
-        descricao.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
+        infos.innerHTML = `Nome: ${candidato.nome}<br/>Partido: ${candidato.partido}`;
         let fotosHtml = '';
         for(let i in candidato.fotos) {
             if(candidato.fotos[i].small) {
@@ -56,11 +57,11 @@ function atualizaInterface() {
                 fotosHtml += `<div class="d-1-image"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
             }
         }
-        lateral.innerHTML = fotosHtml;
+        img.innerHTML = fotosHtml;
     } else {
-        seuVotoPara.style.display = 'block';
+        voto.style.display = 'block';
         aviso.style.display = 'block';
-        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
+        infos.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
     }
 }
 
@@ -83,11 +84,11 @@ function branco() {
     numero = '';
     votoBranco = true;
 
-    seuVotoPara.style.display = 'block';
+    voto.style.display = 'block';
     aviso.style.display = 'block';
     numeros.innerHTML = '';
-    descricao.innerHTML = '<div class="aviso--grande pisca">VOTO EM BRANCO</div>';
-    lateral.innerHTML = '';
+    infos.innerHTML = '<div class="aviso-grande pisca">VOTO EM BRANCO!</div>';
+    img.innerHTML = 'none';
 }
 
 function corrige() {
