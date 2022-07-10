@@ -51,9 +51,9 @@ function atualizaInterface() {
         let fotosHtml = '';
         for(let i in candidato.fotos) {
             if(candidato.fotos[i].small) {
-                fotosHtml += `<div class="divisao1-image small"><img src="https://luizfelipe9627.github.io/urna-eletronica/assets/image/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="divisao1-image small"><img src="https://luizfelipe9627.github.io/urna-eletronica/assets/image/${candidato.fotos[i].url}"/>${candidato.fotos[i].legenda}</div>`;
             } else {
-                fotosHtml += `<div class="divisao1-image"><img src="https://luizfelipe9627.github.io/urna-eletronica/assets/image/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="divisao1-image"><img src="//luizfelipe9627.github.io/urna-eletronica/assets/image//${candidato.fotos[i].url}"/>${candidato.fotos[i].legenda}</div>`;
             }
         }
         img.innerHTML = fotosHtml;
