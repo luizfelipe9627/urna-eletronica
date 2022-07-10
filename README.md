@@ -9,7 +9,7 @@ Um simulador de urna eletrônica, totalmente funcional.
 ## 📑 Observação
 Nesse segundo projeto web usando JavaScript foi criado uma urna eletrônica. Tudo foi feito do zero, HTML5, CSS3 e Javascript. O projeto não está responsivo.
 
-### <a href="https://luizfelipe9627.github.io/urna-eletronica">Acesse o site</a>
+### <a href="https://luizfelipe9627-urna-eletronica.netlify.app">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
