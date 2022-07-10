@@ -2,12 +2,12 @@
 
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge) 
 
-<img src="https://github.com/luizfelipe9627/urna-eletronica/blob/master/assets/videos/urna-eletronica.gif" alt="Site">
+<img src="https://github.com/luizfelipe9627/urna-eletronica/blob/master/assets/video/urna-eletronica.gif" alt="Apresentação da Urna eletrônica">
 
 ## 📄 Descrição
 Um simulador de urna eletrônica, totalmente funcional.
 ## 📑 Observação
-Nesse segundo projeto web usando JavaScript foi criado uma urna eletrônica. Tudo foi feito do zero, HTML5, CSS3 e Javascript.
+Nesse segundo projeto web usando JavaScript foi criado uma urna eletrônica. Tudo foi feito do zero, HTML5, CSS3 e Javascript. O projeto não está responsivo.
 
 ### <a href="https://luizfelipe9627.github.io/urna-eletronica">Acesse o site</a>
 

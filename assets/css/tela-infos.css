@@ -1,0 +1,67 @@
+.tela {
+  width: 31.25rem;
+  height: 20rem;
+  background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+  border: 0.125rem solid #555;
+  display: flex;
+  flex-direction: column;
+}
+
+.divisao1 {
+  flex: 1;
+  display: flex;
+}
+
+.divisao1-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.25rem;
+}
+
+.divisao1-right {
+  width: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.area-voto {
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.area-cargo {
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numero {
+  display: inline-block;
+  width: 1.875rem;
+  height: 2.5rem;
+  border: 0.0625rem solid #000;
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 1.5625rem;
+}
+
+.area-numeros {
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.pisca {
+  animation-name: pisca;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.area-infos {
+  flex: 1;
+  line-height: 1.875rem;
+}

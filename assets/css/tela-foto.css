@@ -1,0 +1,37 @@
+.divisao1-image {
+  border: 0.0625rem solid #000;
+  background-color: #FFF;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.divisao1-image img {
+  width: 100%;
+}
+
+.divisao1-image.small {
+  width: 80%;
+  font-size: 0.75rem;
+}
+
+.divisao2 {
+  height: 3.125rem;
+  font-size: 0.875rem;
+  border-top: 0.125rem solid #000;
+  padding: 0.125rem 0 0 0.625rem;
+}
+
+.aviso-grande {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 0.625rem;
+}
+
+.aviso-gigante {
+  font-size: 4.375rem;
+  font-weight: bold;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

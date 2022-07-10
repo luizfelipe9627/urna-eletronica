@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes pisca {
+  0% { opacity: 0.2 }
+  50% { opacity: 1 }
+  100% { opacity: 0.2 }
+}

@@ -1,0 +1,47 @@
+.teclado {
+  margin-left: 1.875rem;
+  background-color: #403A3A;
+}
+
+.teclado-linha {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.teclado-botao {
+  width: 4.375rem;
+  height: 2.5rem;
+  background-color: #000;
+  color: #FFF;
+  font-size: 1.5625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.625rem;
+  cursor: pointer;
+  box-shadow: 0.1875rem 0.1875rem 0rem #555;
+  font-weight: bold;
+}
+
+.botao-branco {
+  background-color: #FFF;
+  color: #000;
+  font-size: 0.9375rem;
+  width: 4.6875rem;
+}
+
+.botao-corrige {
+  background-color: #F09046;
+  color: #000;
+  font-size: 0.9375rem;
+  width: 5rem;
+}
+
+.botao-confirma {
+  background-color: #48C079;
+  color: #000;
+  font-size: 0.9375rem;
+  width: 5.625rem;
+  height: 3.125rem;
+}
